@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Tech Solution | Software Development & Digital Marketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./assects/image/logo.png" alt="Hope Tech Solution" width="40" height="40" class="me-2">
+        Hope Tech Solution
+    </a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#course">Course</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-3">
+                <a href="#contact" class="btn btn-glow">Get Started</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content fade-in">
+                    <h1>Transform Your Digital Presence</h1>
+                    <p>We build cutting-edge software solutions and teach you how to master Microsoft Word for professional success.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#course" class="btn btn-glow btn-lg">Enroll in Course</a>
+                        <a href="#services" class="btn btn-outline-light btn-lg px-4">Our Services</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="500">0</h3>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="150">0</h3>
+                            <p>Projects Delivered</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="counter" data-target="98">0</h3>
+                            <p>% Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="hero-image">
+                        <div class="glass-card text-center">
+                            <i class="fas fa-laptop-code fa-5x mb-3" style="color: var(--primary-color);"></i>
+                            <h3 class="mb-3">Ready to Scale?</h3>
+                            <p class="mb-4">From custom websites to social media mastery, we've got you covered.</p>
+                            <div class="d-flex justify-content-center gap-2">
+                                <span class="badge bg-primary">Web Development</span>
+                                <span class="badge bg-secondary">Marketing</span>
+                                <span class="badge bg-info">Training</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Our Services</h2>
+                <p>Comprehensive digital solutions tailored to your business needs</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <h3>Custom Website Development</h3>
+                        <p>Responsive, high-performance websites built with modern technologies.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>React & Vue.js</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>E-commerce Solutions</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>SEO Optimized</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-share-nodes"></i></div>
+                        <h3>Social Media Marketing</h3>
+                        <p>Strategic social media campaigns that boost engagement.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>Content Strategy</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Paid Advertising</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Analytics & Reporting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-mobile-screen"></i></div>
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile applications.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>iOS & Android</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Flutter & React Native</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-search"></i></div>
+                        <h3>SEO Optimization</h3>
+                        <p>Data-driven SEO strategies that improve search rankings.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>Keyword Research</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Technical SEO</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Link Building</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Beautiful, intuitive interfaces that delight users.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>Wireframing</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Prototyping</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>User Testing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Corporate Training</h3>
+                        <p>Customized training programs for teams.</p>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fas fa-check text-primary me-2"></i>Live Sessions</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>Certification</li>
+                            <li><i class="fas fa-check text-primary me-2"></i>24/7 Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Section -->
+    <section class="course-section" id="course">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Master Web Development</h2>
+                <p>From basics to advanced development - become a professional web developer</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 fade-in">
+                    <div class="course-card">
+                        <div class="course-badge">Bestseller</div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="course-content">
+                                    <h3 class="mb-3">Web Development Mastery</h3>
+                                    <p class="mb-4">Complete guide to modern web development.</p>
+                                    <ul class="course-features">
+                                        <li><i class="fas fa-video"></i> 40+ Hours Video Content</li>
+                                        <li><i class="fas fa-file-download"></i> 50+ Downloadable Resources</li>
+                                        <li><i class="fas fa-certificate"></i> Certificate of Completion</li>
+                                        <li><i class="fas fa-infinity"></i> Lifetime Access</li>
+                                        <li><i class="fas fa-mobile-alt"></i> Mobile & TV Access</li>
+                                    </ul>
+                                    <div class="d-flex align-items-center gap-3 mt-4">
+                                        <div class="price-tag">7000<span>/Month</span></div>
+                                        <button class="btn btn-glow btn-lg" onclick="enrollCourse()">Enroll Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <div class="glass-card">
+                                        <h5 class="mb-3">What You'll Learn:</h5>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> HTML & CSS</small>
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> Responsive Design</small>
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> JavaScript Basics</small>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> UI/UX Design</small>
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> Website Deployment</small>
+                                                <small class="d-block mb-2"><i class="fas fa-check-circle text-primary me-1"></i> Real Projects</small>
+                                            </div>
+                                        </div>
+                                        <hr class="my-3 border-secondary">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <small>Rating</small>
+                                                <div class="text-warning">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <span class="text-light ms-1">4.9</span>
+                                                </div>
+                                            </div>
+                                            <div class="text-end">
+                                                <small>Students</small>
+                                                <div class="fw-bold text-light">2,500+</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Our Work</h2>
+                <p>Recent projects that showcase our expertise</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <h4>E-commerce Platform</h4>
+                            <p>Full-stack development with React and Node.js</p>
+                            <button class="btn btn-light btn-sm mt-2"><a href="http://usmorganics.kesug.com/">View Project</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Analytics Dashboard">
+                        <div class="portfolio-overlay">
+                            <h4>Analytics Dashboard</h4>
+                            <p>Data visualization with real-time updates</p>
+                            <button class="btn btn-light btn-sm mt-2">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop" alt="Mobile Banking App">
+                        <div class="portfolio-overlay">
+                            <h4>Mobile Banking App</h4>
+                            <p>Secure fintech solution with biometric auth</p>
+                            <button class="btn btn-light btn-sm mt-2">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Social Media Campaign">
+                        <div class="portfolio-overlay">
+                            <h4>Social Media Campaign</h4>
+                            <p>Viral marketing strategy for tech startup</p>
+                            <button class="btn btn-light btn-sm mt-2">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&h=400&fit=crop" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <h4>Brand Identity</h4>
+                            <p>Complete rebranding and design system</p>
+                            <button class="btn btn-light btn-sm mt-2">View Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" alt="Word Template System">
+                        <div class="portfolio-overlay">
+                            <h4>Word Template System</h4>
+                            <p>Enterprise document automation solution</p>
+                            <button class="btn btn-light btn-sm mt-2">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about us</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 fade-in">
+                    <div class="testimonial-card h-100">
+                        <p class="mb-4">"NexGen transformed our online presence completely. The website they built increased our conversions by 150%. Highly recommended!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Client" class="client-img">
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <small>CEO, TechStart Inc.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="testimonial-card h-100">
+                        <p class="mb-4">"The Word course was a game-changer for our team. Productivity increased significantly, and the support was exceptional throughout."</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Client" class="client-img">
+                            <div>
+                                <h6 class="mb-0">Michael Chen</h6>
+                                <small>Operations Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="testimonial-card h-100">
+                        <p class="mb-4">"Professional, timely, and creative. Their social media strategy helped us reach 1M followers in just 6 months. Outstanding work!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Client" class="client-img">
+                            <div>
+                                <h6 class="mb-0">Emily Rodriguez</h6>
+                                <small>Marketing Director</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 fade-in">
+                    <h2 class="mb-4">Let's Work Together</h2>
+                    <p class="mb-5">Ready to start your project or have questions about our course? Get in touch with us.</p>
+                    
+                    <div class="mb-4">
+                        <h5><i class="fas fa-envelope text-primary me-2"></i> Email</h5>
+                        <p>hopetechsolution786@gmail.com</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-phone text-primary me-2"></i> Phone</h5>
+                        <p>03071514352</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5><i class="fas fa-location-dot text-primary me-2"></i> Location</h5>
+                        <p>Inside Hope Hearing & Autism Care Center Jail Road Sargodha</p>
+                    </div>
+                    
+                    <div class="social-links mt-4">
+                        <a href="https://www.linkedin.com/in/hope-tech-solutions-b13054402"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.tiktok.com/@hopetechsolution?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/share/1cX1SpqNeY/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/hope.techsolution?igsh=bzNlZWF0a2MwdzRs"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/923148552611"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 🔥🔥🔥 UPDATED CONTACT FORM WITH IDs 🔥🔥🔥 -->
+                <div class="col-lg-6 fade-in">
+                    <form id="contactForm" class="glass-card">
+                        <h4 class="mb-4">Send us a Message</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="tel" class="form-control" id="phone" placeholder="Your Contact Number" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-control" id="service">
+                                <option value="">Select Service</option>
+                               <option value="Website Designing">Website Designing</option>
+                                <option value="website">Website Development</option>
+                                <option value="Social Media Marketing">Social Media Marketing</option>
+                                 <option value="E-Commerce">E-Commerce</option>
+                                <option value="English Learning Skill">English Learning Skill</option>      
+                                <option value="Social Media Management">Social Media Management</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-glow w-100" id="submitBtn">
+                            <span id="btnText">Send Message</span>
+                            <span id="btnSpinner" class="spinner-border spinner-border-sm d-none"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="navbar-brand mb-3">Hope Tech Solution</h4>
+                    <p>Empowering businesses through technology and education. We build software that matters and teach skills that last.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="text-white mb-3">Services</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Web Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Marketing</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Mobile Apps</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Training</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="text-white mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="text-white mb-3">Newsletter</h6>
+                    <p class="small">Subscribe to get updates on new courses and tech tips.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter email">
+                        <button class="btn btn-glow" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2026 Hope Tech Solution. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('hidden');
+            }, 500);
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Counter animation
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+
+        const animateCounters = () => {
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const inc = target / speed;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + inc);
+                    setTimeout(animateCounters, 20);
+                } else {
+                    counter.innerText = target + (target === 98 ? '%' : '+');
+                }
+            });
+        };
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    if (entry.target.querySelector('.counter')) {
+                        animateCounters();
+                    }
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+
+        // 🔥🔥🔥 BACKEND CONNECTED FORM SUBMISSION 🔥🔥🔥
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+            const spinner = document.getElementById('btnSpinner');
+            
+            // Show loading
+            submitBtn.disabled = true;
+            btnText.textContent = 'Sending...';
+            spinner.classList.remove('d-none');
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+
+            try {
+                const response = await fetch('http://localhost:3000/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                
+                if(result.success) {
+                    // Success toast
+                    const toast = document.createElement('div');
+                    toast.className = 'position-fixed top-0 end-0 p-3';
+                    toast.style.zIndex = '9999';
+                    toast.innerHTML = `
+                        <div class="toast show align-items-center text-white bg-success border-0" role="alert">
+                            <div class="d-flex">
+                                <div class="toast-body">
+                                    <i class="fas fa-check-circle me-2"></i> Message sent successfully! We'll get back to you soon.
+                                </div>
+                                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                            </div>
+                        </div>
+                    `;
+                    document.body.appendChild(toast);
+                    
+                    // Reset form
+                    e.target.reset();
+                    
+                    // Remove toast after 3 seconds
+                    setTimeout(() => {
+                        toast.remove();
+                    }, 3000);
+                } else {
+                    alert('Failed to send message. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Server error. Please make sure backend is running on port 3000.');
+            } finally {
+                // Reset button
+                submitBtn.disabled = false;
+                btnText.textContent = 'Send Message';
+                spinner.classList.add('d-none');
+            }
+        });
+
+        // Course enrollment function
+        function enrollCourse() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => {
+                document.getElementById('service').value = 'course';
+                document.getElementById('service').focus();
+            }, 800);
+        }
+
+        // Add parallax effect to hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
